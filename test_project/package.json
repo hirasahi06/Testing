@@ -1,0 +1,13 @@
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --timeout 30000"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^4.33.0",
+    "mocha": "^11.7.4",
+    "chai": "^5.1.1"
+  }
+}
