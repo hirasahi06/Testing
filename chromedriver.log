@@ -1,0 +1,19 @@
+[1761653095.840][INFO]: Starting ChromeDriver 141.0.7390.78 (2b53b0e231fc1be9d07dd91143c7eae0ffbfcab5-refs/branch-heads/7390_65@{#5}) on port 46785
+[1761653095.840][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1761653095.846][INFO]: ChromeDriver was started successfully on port 46785
+[1761653095.871][INFO]: [178d38ddd6ca910d5857a48a44d1b48a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--start-maximized", "--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox", "--disable-blink-features=AutomationControlled", "--user-data-dir=C:\\Users\\Links inn\\AppData\\Local\\Google\\Chrome\\User Data", "--profile-directory=Default" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "excludeSwitches": [ "enable-automation" ]
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1761653095.881][INFO]: [178d38ddd6ca910d5857a48a44d1b48a] RESPONSE InitSession ERROR session not created
+from unknown error: no chrome binary at C:\Program Files\Google\Chrome\Application\chrome.exe
